@@ -1,0 +1,123 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:rosybrown;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  color: #5C4033; /* brown */
+}
+
+
+ .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 70px;
+  padding: 20px;
+}
+
+
+
+.image-card {
+  background:snow;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.save-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #5C4033; /* brown */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.save-btn:hover {
+  background-color: #7B4F37; /* lighter brown */
+}
+.btn {
+    
+    
+    padding: 12px 25px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+    animation: fadeIn 2.5s ease-in-out;
+  margin-left: 550px;
+   margin-top:20px;
+     margin-bottom: 880px;
+  
+  
+}
+.navi {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    background-color: #5C4033;
+    border-bottom: 1px solid #e5e5e5;
+    font-family: "Inter", "Poppins", sans-serif;
+}
+
+.navi a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 100;
+    transition: color 0.25s ease, border-bottom 0.25s ease;
+    padding-bottom: 4px;
+    font-size:small;
+}
+
+.navi a:hover {
+    color: orange;
+    border-bottom: 2px solid #0077cc;
+}
+
+.navi a.active {
+    color: #0077cc;
+    border-bottom: 2px solid #0077cc;
+}
+.footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  min-height: 60px; /* allows it to grow if needed */
+  background-color: #5C4033; /* rich brown */
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap; /* allows text to wrap */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  font-size: 0.9rem;
+  font-family: "Inter", "Poppins", sans-serif;
+  z-index: 999;
+  box-sizing: border-box;
+}
+
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 2px;
+    margin-right: 2px;
+  transition: color 0.3s ease;
+}
+
